@@ -1,0 +1,55 @@
+# ROS / Colcon
+build/
+install/
+log/
+*.colcon_install_layout
+*.egg-info/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Gazebo / ROS simulation artifacts
+*.gazebo
+*.db
+*.bag
+*.bag.active
+*.png
+*.pgm
+*.yaml
+*.sdf
+*.urdf
+*.xacro
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CMake / compiler
+CMakeFiles/
+CMakeCache.txt
+cmake-build-debug/
+cmake-build-release/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE / editor
+.idea/
+*.iml
+
+# Local environment / secrets
+.env
+.env.*
